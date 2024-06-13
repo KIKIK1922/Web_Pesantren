@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.body {
+    font-family:Popins,sans-serif ;
+}
+
+.nav-item .nav-link {
+    font-size: 18px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.hero {
+    background: url('../images/il-berita-02.png') no-repeat center center/cover;
+    color: rgb(0, 0, 0);
+    padding: 100px 0;
+    text-align: center;
+    
+}
+
+.hero h2 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section {
+    padding: 20px 0;
+}
+.card {
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    overflow: hidden;
+    margin: 20px;
+}
+
+.card-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-title {
+    margin: 0 0 10px;
+}
+
+.card-description {
+    color: #666;
+    line-height: 1.6;
+    margin: 0;
+}
+
+.card-actions {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #f9f9f9;
+    border-top: 1px solid #ddd;
+}
+
+.btn {
+    background: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn.edit {
+    background: #28a745;
+}
+
+.btn.delete {
+    background: #dc3545;
+}
+
+.btn.post {
+    background: #17a2b8;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: relative;
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .container {
+        margin: 10px;
+        padding: 10px;
+    }
+}
